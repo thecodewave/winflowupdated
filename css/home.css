@@ -22,7 +22,8 @@
 .genre{margin:0 0 12px;color:var(--muted);font-size:18px}
 .name{
   display:block;margin:0;max-width:100%;
-  font-size:clamp(56px,14vw,200px);line-height:.9;letter-spacing:-.02em;white-space:nowrap;
+  font-family:'Pirata One','Syne',serif;font-weight:400;
+  font-size:clamp(56px,14vw,200px);line-height:.9;letter-spacing:.01em;white-space:nowrap;
   /* mask for the entrance; padding gives the hover lift room */
   overflow:hidden;padding:.12em 0 .16em;margin:-.12em 0 -.16em;
 }
@@ -76,3 +77,15 @@
   .release{padding:24px;gap:32px;margin-top:72px}
   .stream{margin-top:72px}
 }
+
+/* Backdrop: the label name, set huge and outlined, in staggered rows behind everything */
+body.home{position:relative;overflow-x:hidden}
+.bg{position:fixed;inset:0;z-index:-1;overflow:hidden;pointer-events:none;
+  display:flex;flex-direction:column;justify-content:center;gap:.04em;
+  font:800 clamp(56px,11vw,150px)/1 'Syne',sans-serif;rotate:-8deg;scale:1.5}
+.bg span{display:block;white-space:nowrap;text-transform:uppercase;letter-spacing:.02em;
+  color:transparent;-webkit-text-stroke:1.5px rgba(244,241,234,.09)}
+.bg span:nth-child(even){margin-left:-.9em}
+.bg span:nth-child(3n){-webkit-text-stroke-color:rgba(255,90,54,.13)}
+.bg::after{content:"";position:fixed;inset:0;rotate:8deg;scale:1.5;
+  background:radial-gradient(ellipse at 30% 40%,transparent 0,rgba(12,12,16,.55) 75%)}

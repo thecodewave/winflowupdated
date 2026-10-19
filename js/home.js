@@ -53,7 +53,13 @@ function renderStream() {
   $('stream').hidden = false;
 }
 
+// Fill the backdrop with rows of the label name.
+function buildBackdrop() {
+  $('bg').innerHTML = Array.from({ length: 9 }, () => `<span>${'Beatline Records \u00a0 '.repeat(6)}</span>`).join('');
+}
+
 async function init() {
+  buildBackdrop();
   renderHeader('home');
   $('genre').textContent = cfg.GENRE;
   $('bio').textContent = cfg.BIO;

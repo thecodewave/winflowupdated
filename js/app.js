@@ -40,6 +40,6 @@ function renderHeader(active) {
   const link = (key, href, label) => `<a href="${href}" class="${key === active ? 'active' : ''}">${label}</a>`;
   $('site-header').innerHTML =
     `<a class="brand" href="index.html">${esc(cfg.ARTIST_NAME)}</a>` +
-    `<nav>${link('home', 'index.html', 'Home')}${link('songs', 'songs.html', 'Songs')}${link('connect', 'connect.html', 'Connect')}</nav>`;
+    `<nav>${link('home', 'index.html', 'Home')}${link('songs', 'songs.html', 'Songs')}${link('gallery', 'gallery.html', 'Gallery')}${link('videos', 'videos.html', 'Videos')}${link('connect', 'connect.html', 'Connect')}</nav>`;
   document.title = `${cfg.ARTIST_NAME} | ${document.title}`;
 }
