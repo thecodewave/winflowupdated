@@ -33,7 +33,7 @@ window.CONFIG = {
 
   // Lifestyle videos for videos.html, shown in this order.
   VIDEOS: [
-    { title: 'Night out', src: 'videos/1.mp4', poster: 'images/night-out.jpg' },
+    // { title: 'Night out', src: 'videos/1.mp4', poster: 'images/night-out.jpg' },
     { title: 'Night out', src: 'videos/3.mp4', poster: 'images/night-out.jpg' },
     { title: 'Night out', src: 'videos/4.mp4', poster: 'images/night-out.jpg' },
     { title: 'Night out', src: 'videos/5.mp4', poster: 'images/night-out.jpg' },
@@ -46,7 +46,7 @@ window.CONFIG = {
     { title: 'Night out', src: 'videos/WhatsApp Video 2026-10-14 at 10.53.09 AM (1).mp4', poster: 'images/night-out.jpg' },
     { title: 'Night out', src: 'videos/WhatsApp Video 2026-10-14 at 10.54.55 AM.mp4', poster: 'images/night-out.jpg' },
     { title: 'Night out', src: 'videos/WhatsApp Video 2026-10-14 at 10.54.56 AM.mp4', poster: 'images/night-out.jpg' },
-    { title: 'Night out', src: 'videos/WhatsApp Video 2026-10-14 at 10.54.56 AM (1).mp4', poster: 'images/night-out.jpg' },
+    // { title: 'Night out', src: 'videos/WhatsApp Video 2026-10-14 at 10.54.56 AM (1).mp4', poster: 'images/night-out.jpg' },
     { title: 'Night out', src: 'videos/WhatsApp Video 2026-10-14 at 10.54.56 AM (2).mp4', poster: 'images/night-out.jpg' },
     { title: 'Night out', src: 'videos/WhatsApp Video 2026-10-14 at 10.54.56 AM (3).mp4', poster: 'images/night-out.jpg' },
     { title: 'Night out', src: 'videos/WhatsApp Video 2026-10-14 at 10.54.56 AM (4).mp4', poster: 'images/night-out.jpg' },
